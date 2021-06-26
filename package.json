@@ -3,14 +3,36 @@
   "version": "1.0.0",
   "description": "This is a simple code for getting watched moviews from history of a user at trakt.tv",
   "main": "App.js",
+  "funding": "https://alestor123.is-a.dev/donate/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+		"App.js"
+	],
+  "author": {
+		"name": "Alestor Aldous",
+		"url": "https://alestor123.github.io"
+	},
+	"engines": {
+		"node": ">=10"
+	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alestor123/WATCHED-MOVIES.git"
   },
-  "author": "Alestor Aldous",
+    "scripts": {
+    "test": "standard && node test.js | tap-spec"
+  },
+   "keywords": [
+    "movies",
+    "trakt.tv",
+    "shows",
+    "history",
+    "json",
+    "markdown",
+
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/alestor123/WATCHED-MOVIES/issues"
