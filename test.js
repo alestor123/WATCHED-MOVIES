@@ -8,4 +8,4 @@ tap.test('Error test', async t => {
   await t.rejects(movies('alestor123', '23e2e', '2e323e23e32e3', '23e23'), { message: 'Please enter a valid input' })
   await t.rejects(movies('alestor123wedhbewjdbh', process.env.TRAK, process.env.TMDB, 300), { message: 'Request failed with status code 404' })
 })
-tap.test('Output test', async t => t.equal(typeof await movies('alestor123', process.env.TRAK, process.env.TMDB, 300), 'object'))
+tap.test('Output test', async t => t.equal(typeof await movies('alestor123r', process.env.TRAK, process.env.TMDB, 300), 'object'))
