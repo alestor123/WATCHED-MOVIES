@@ -5,7 +5,8 @@
   "main": "App.js",
   "funding": "https://alestor123.is-a.dev/donate/",
   "scripts": {
-    "test": "standard && node test.js | tap-spec"
+    "test": "standard && node test.js | tap-spec",
+    "lint": "standard . --fix"
   },
   "files": [
     "App.js"
